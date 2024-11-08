@@ -1,0 +1,58 @@
+.Stories {
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0 0 10px rgba(0, 114, 17, 0);
+}
+
+.Story {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    padding: 2px;
+    border-radius: 50%;
+    background-color: #0c0404;
+    box-shadow: 0 0 10px rgba(101, 187, 114, 0);
+    margin: 1vw 1vw 20px 1vw;
+    transition: all 0.3s;
+    border-style: 20px red;
+}
+
+
+.Story img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+    box-shadow: 0 0 10px orange, pink;
+    
+    background:linear-gradient( pink, orange);
+    
+}
+.Story:hover{
+    background-color: rgb(0, 0, 0);
+    transition: all 1s;
+    cursor: pointer;
+    
+}
+.Perfils{
+  display: flex;
+}
+.Perfils img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+    box-shadow: 0 0 10px rgba(187, 217, 191, 0);
+    border: 2px solid chartreuse;
+}
+
+.nome-do-usuario{
+    color: white;
+}
+/* .Perfils:hover{
+    background-color: rgb(255, 219, 219);
+    transition: all 1s;
+    cursor: pointer;
+} */
